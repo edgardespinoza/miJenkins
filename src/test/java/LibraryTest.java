@@ -18,7 +18,7 @@ public class LibraryTest {
     public void procesar(){
     	IProcesar p = new ProcesarImp();
     	p.procesarSuma(2, 3);
-    	assertEquals(p.procesarSuma(2, 3), 6);
+    	assertEquals(p.procesarSuma(2, 3), 5);
     	
     }
 }
